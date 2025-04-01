@@ -108,3 +108,11 @@ npm install dotenv
 node settings.js
 
 echo "✅ settings.json file has been created successfully!"
+
+# Install PM2 globally
+npm install pm2 -g
+
+# Start the Explorer with PM2
+pm2 start "npm start" --name "explorer"
+
+echo "✅ Explorer started with PM2 as 'explorer'."
