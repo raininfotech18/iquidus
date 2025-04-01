@@ -98,6 +98,9 @@ create_mongo_user
 
 echo "✅ Setup complete! .env file has been created successfully!"
 
+# Install dependencies for production environment
+npm install --production
+
 # Install dotenv package for settings.js
 npm install dotenv
 
