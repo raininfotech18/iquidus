@@ -29,7 +29,7 @@
   //     Lux, Materia, Minty, Pulse, Sandstone, Simplex, Sketchy, Slate, 
   //     Solar, Spacelab, Superhero, United, Yeti
   // theme (see /public/themes for available themes)
-  "theme": "Cyborg",
+  "theme": "Pulse",
 
   // port to listen for requests on.
   "port" : 3001,
