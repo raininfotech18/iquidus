@@ -32,6 +32,8 @@ try {
 }
 
 // Override values with environment variables
+settings.title = process.env.TITLE || settings.title;
+
 settings.address = process.env.ADDRESS || settings.address;
 settings.coin = process.env.COIN || settings.coin;
 settings.symbol = process.env.SYMBOL || settings.symbol;
